@@ -3,7 +3,6 @@ Imitation learning technique’s aim is for robots to mimic expert techniques to
 
 ## Python Dependencies:  
 -Numpy: 1.20.2
--Time  
 -Matplotlib  
 -OS  
 -TQDM  
