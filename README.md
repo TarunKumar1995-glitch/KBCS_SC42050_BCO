@@ -43,6 +43,8 @@ data_flag = -1
 ## Change the flag to 0 to use pre trained ID model
 model_flag = -1
 ```
+In order use this fearture for ant.py, download the data file from [here](https://drive.google.com/file/d/1xGtZBdC4JUzr_VNKhjZrGhblIpnq5QtV/view?usp=sharing). Place the downloaded .npy file in the immediate directory.
+
 ## Testing
 In order to run one of the models:  
 ```
