@@ -1,4 +1,5 @@
 # KBCS_SC42050_BCO
+Imitation learning technique’s aim is for robots to mimic expert techniques to perform a certain task. One of the main obstacles in imitation learning, is that it is expensive/not always possible to infer the exact actions taken by the expert. An approach to circumvent this bottleneck was proposed by Faraz Torabi, Garrett Warnell and Peter Stone in their paper\cite{torabi2018behavioral} “Behavioural Cloning from Observation (2018)”. This method uses an additional step where the robot explores the environment and trains to recognise the inverse dynamics (action which causes change from one state to another). This is then utilized by the robot to infer the missing actions of the expert, and thus learn the expert trajectories. In this work, an attempt is made to reproduce the results of this paper and discuss the algorithm while considering possible alternatives to improve the method.
 
 ## Python Dependencies:  
 -Numpy: 1.20.2
@@ -12,7 +13,7 @@
 -Mujoco  
 
 ## Scripts
-The BCO models for Ant-v2, Reacher-v2 and Mountain Car-v0 environments are implemented in their own python files (Jupyter Notebooks are also provided under "/Python Notebooks"). Cartpole implementation is provided as Jupyter Notebook alone in the immediate directory.
+The BCO models for Ant-v2, Reacher-v2 and Mountain Car-v0 environments are implemented in their own python files (Jupyter Notebooks are also provided under "/Python Notebooks/"). Cartpole implementation is provided as Jupyter Notebook alone in the immediate directory.
 
 ## BCO Configuration
 To optimize the execution of algorithm, the parameters and hyperparameters can be tuned at the beginning of every script provided. 
